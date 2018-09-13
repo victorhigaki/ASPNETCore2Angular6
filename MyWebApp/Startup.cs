@@ -35,7 +35,7 @@ namespace MyWebApp
                 optional => optional.UseSqlServer(
                     sqlConnection, b => b.MigrationsAssembly(
                         "MyWebApp")));
-
+            services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,6 +52,7 @@ namespace MyWebApp
             //});
 
             app.UseStaticFiles();
+            app.UseMvcWithDefaultRoute();
         }
     }
 }

@@ -7,18 +7,24 @@
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/Site.css" rel="stylesheet" />
     <script src="jquery/jquery-3.3.1.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
     <script src="js/Index.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-inverse">
         <div class="container">
             <div class="navbar-header">
+                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar1" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
                 <a href="/index.html" class="navbar-brand">
                     MeuWebApp
                 </a>
             </div>
-            <div class="collapse navbar-collapse">
+            <div id="navbar1" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#">Home</a></li>
                     <li><a href="#">Sobre</a></li>
@@ -27,8 +33,48 @@
             </div>
         </div>
     </nav>
-    <h2>Meu APP</h2>
-    <!--<p>Este é o meu <strong>primeiro</strong> paragrafo</p>
+    <div class="container-fluid" style="border-color:red; border-width:1px;border-style:solid;">
+        <div class="row">
+            <div class="col-xs-1" style="border-color:red; border-width:1px;border-style:solid;">
+                col6
+            </div>
+            <div class="col-xs-1" style="border-color:red; border-width:1px;border-style:solid;">
+                col6
+            </div>
+            <div class="col-xs-1" style="border-color:red; border-width:1px;border-style:solid;">
+                col6
+            </div>
+            <div class="col-xs-1" style="border-color:red; border-width:1px;border-style:solid;">
+                col6
+            </div>
+            <div class="col-xs-1" style="border-color:red; border-width:1px;border-style:solid;">
+                col6
+            </div>
+            <div class="col-xs-1" style="border-color:red; border-width:1px;border-style:solid;">
+                col6
+            </div>
+            <div class="col-xs-1" style="border-color:red; border-width:1px;border-style:solid;">
+                col6
+            </div>
+            <div class="col-xs-1" style="border-color:red; border-width:1px;border-style:solid;">
+                col6
+            </div>
+            <div class="col-xs-1" style="border-color:red; border-width:1px;border-style:solid;">
+                col6
+            </div>
+            <div class="col-xs-1" style="border-color:red; border-width:1px;border-style:solid;">
+                col6
+            </div>
+            <div class="col-xs-1" style="border-color:red; border-width:1px;border-style:solid;">
+                col6
+            </div>
+            <div class="col-xs-1" style="border-color:red; border-width:1px;border-style:solid;">
+                col6
+            </div>
+        </div>
+
+        <h2>Meu APP</h2>
+        <!--<p>Este é o meu <strong>primeiro</strong> paragrafo</p>
     <a href="http://www.gmail.com">Clique aqui</a>
     <ul>
         <li>Um</li>
@@ -36,26 +82,26 @@
         <li>Tres</li>
     </ul>-->
 
-    <div>
-        <img src="img/747626_1.jpg" width="200" height="200" />
-        <h3>
-            Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
-        </h3>
-        <ul class="preco-produto">
-            <li>
-                Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod,
-            </li>
-            <li>
-                luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac,
-            </li>
-            <li>
-                iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
-            </li>
-        </ul>
-    </div>
-    <button id="meu-button">Comprar</button>
+        <div>
+            <img src="img/747626_1.jpg" width="200" height="200" />
+            <h3>
+                Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+            </h3>
+            <ul class="preco-produto">
+                <li>
+                    Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod,
+                </li>
+                <li>
+                    luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac,
+                </li>
+                <li>
+                    iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                </li>
+            </ul>
+        </div>
+        <button id="meu-button">Comprar</button>
 
-    <!--<div id="meu-form">
+        <!--<div id="meu-form">
         <form>
             <label>Seu Nome:</label>
             <br />
@@ -80,31 +126,31 @@
         </form>
 
     </div>-->
-    <br />
+        <br />
 
-    <div>
-        <div id="login">Login</div>
-        <form id="popup-form" class="popup-form">
-            <div>
-                <label>Usuario</label>
-                <input />
-            </div>
+        <div>
+            <div id="login">Login</div>
+            <form id="popup-form" class="popup-form">
+                <div>
+                    <label>Usuario</label>
+                    <input />
+                </div>
 
-            <div>
-                <label>Senha</label>
-                <input type="password" />
-            </div>
+                <div>
+                    <label>Senha</label>
+                    <input type="password" />
+                </div>
 
-            <div>
-                <input type="checkbox"/>
-                <label>Manter conectado</label>
-            </div>
+                <div>
+                    <input type="checkbox" />
+                    <label>Manter conectado</label>
+                </div>
 
-            <div>
-                <input type="submit" value="Entrar" />
-            </div>
-        </form>
-    </div>
+                <div>
+                    <input type="submit" value="Entrar" />
+                </div>
+            </form>
+        </div>
 
 
 

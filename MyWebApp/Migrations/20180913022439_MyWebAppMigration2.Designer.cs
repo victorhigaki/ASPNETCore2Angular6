@@ -11,9 +11,10 @@ using System;
 namespace MyWebApp.Migrations
 {
     [DbContext(typeof(MyWebAppContext))]
-    partial class MyWebAppContextModelSnapshot : ModelSnapshot
+    [Migration("20180913022439_MyWebAppMigration2")]
+    partial class MyWebAppMigration2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
