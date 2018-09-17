@@ -539,7 +539,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\victorhigaki\Projects\MyWebAppSolution\MyWebApp\ClienteApp\styles.css */"./styles.css");
+module.exports = __webpack_require__(/*! C:\Users\victorhigaki\source\repos\ASPNETCore2Angular6\MyWebApp\ClienteApp\styles.css */"./styles.css");
 
 
 /***/ })

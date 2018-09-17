@@ -5473,7 +5473,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\victorhigaki\Projects\MyWebAppSolution\MyWebApp\ClienteApp\polyfills.ts */"./polyfills.ts");
+module.exports = __webpack_require__(/*! C:\Users\victorhigaki\source\repos\ASPNETCore2Angular6\MyWebApp\ClienteApp\polyfills.ts */"./polyfills.ts");
 
 
 /***/ })

@@ -6,7 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="ClienteApp\app\listaProduto.component.ts" />
+    <None Remove="ClienteApp\app\loja\carrinho\carrinho.component.ts" />
+    <None Remove="ClienteApp\app\modelos\pedidos.ts" />
+    <None Remove="ClienteApp\app\servicos\dataServices.ts" />
   </ItemGroup>
 
   <ItemGroup>
@@ -15,11 +17,12 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.9" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.4" />
   </ItemGroup>
 
   <ItemGroup>
-    <TypeScriptCompile Include="ClienteApp\app\loja\listaProduto.component.ts" />
+    <TypeScriptCompile Include="ClienteApp\app\loja\carrinho\carrinho.component.ts" />
+    <TypeScriptCompile Include="ClienteApp\app\modelos\pedidos.ts" />
+    <TypeScriptCompile Include="ClienteApp\app\servicos\dataServices.ts" />
   </ItemGroup>
 
 </Project>
