@@ -41,4 +41,11 @@ export class DataServices {
         }
     }
 
+    public efetivarCompra() {
+        return this.http.post("/api/pedido", this.pedido)
+            .map(resposta => {
+                this.pedido = new Pedido();
+                return true;
+            });
+    }
 }
